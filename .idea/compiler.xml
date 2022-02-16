@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spigot_1_8_R3" />
+        <module name="lobbysystem-spigot_1_16_R3" />
+        <module name="lobbysystem-spigot_1_8_R3" />
+        <module name="lobbysystem-core" />
+        <module name="spigot_1_16_R3" />
+      </profile>
+      <profile name="Annotation profile for LobbySystemMulti" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dist" />
+        <module name="lobbysystem-dist" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="core" target="8" />
+      <module name="dist" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

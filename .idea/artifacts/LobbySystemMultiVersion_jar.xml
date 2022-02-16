@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="LobbySystemMultiVersion:jar">
+    <output-path>$PROJECT_DIR$/../../../Saltyverse Network/TEST-1_16_R3/plugins</output-path>
+    <root id="archive" name="LobbySystemMultiVersion.jar">
+      <element id="module-output" name="lobbysystem-parent" />
+      <element id="module-output" name="spigot_1_16_R3" />
+      <element id="module-output" name="lobbysystem-core" />
+      <element id="module-output" name="spigot_1_8_R3" />
+    </root>
+  </artifact>
+</component>

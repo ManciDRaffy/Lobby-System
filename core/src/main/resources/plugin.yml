@@ -1,0 +1,36 @@
+name: LobbySystem
+main: de.laudytv.lobbysystem.LobbySystem
+version: 1.0
+author: LaudyTV-Developer-Team
+description: Lobby System
+api-version: 1.16
+depend: [ ProtocolLib ]
+
+commands:
+  debug:
+    description: salziger debug command
+  build:
+    description: enables or disables build mode
+  delwarp:
+    description: Deletes a warp
+  setwarp:
+    description: Sets a warp
+  warp:
+    description: teleports to warp
+  gamemode:
+    aliases: [ gm, gmc, gms, gma, gmsp ]
+    description: a simple plugin for gamemode command simplicity
+  automessage:
+    aliases: am
+    description: automessage configuration command
+  nick:
+    description: nicks a player
+  unnick:
+    description: unnicks the player
+  fun:
+    description: Unknown command. Please contact a doctor for help.
+  vanish:
+    description: vanishes a player
+    aliases: v
+  fly:
+    description: enables / disables fly
